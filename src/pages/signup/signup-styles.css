@@ -22,7 +22,7 @@
 .signupInput input,
 .signupInput button {
   width: 100%;
-  box-sizing: border-box; /* Adiciona borda e preenchimento à largura e altura */
+  box-sizing: border-box; 
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;

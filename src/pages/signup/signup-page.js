@@ -1,8 +1,8 @@
-import './Signup-styles.css'
+import './signup-styles.css'
 import { useState } from 'react'
-import api from './services/api'
+import api from '../../services/api'
 
-function Login() {
+function SignupPage() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -67,4 +67,4 @@ function Login() {
   );
 }
 
-export default Login
+export default SignupPage
