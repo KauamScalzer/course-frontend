@@ -1,0 +1,26 @@
+/* CoursesPage.css */
+.app {
+  display: flex;
+}
+
+.content {
+  margin-left: 250px; /* Ajuste o valor conforme necessário para garantir que não fique sob a barra lateral */
+  padding: 16px;
+  flex: 1; /* Isso garante que o conteúdo ocupe o restante do espaço disponível */
+}
+
+.course-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.course-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course-box p {
+  margin-top: 10px;
+  font-weight: bold;
+}
